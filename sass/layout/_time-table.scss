@@ -1,0 +1,245 @@
+.about{
+   padding-top: 21px;
+   padding-bottom: 30px;
+   background: #F5F6F6;
+   @media screen and (min-width: 768px){
+      padding-top: 70px;
+      padding-bottom: 50px;
+   }
+   
+}
+
+.about__title{
+   color: #29AAE3;
+   margin-bottom: 32px;
+   text-align: center;
+   @media screen and (min-width: 768px){
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 1.17;
+      margin-bottom: 40px;
+   }
+}
+.about__title--purple{
+   color: #9033F9;
+}
+.about__wrap{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   @media screen and (min-width: 768px){
+      flex-direction: row-reverse;
+      justify-content: space-around;
+      align-items: center;
+      
+   }
+}
+.about__icon-wrap{
+   display: flex;
+   justify-content: center;
+   background-image: url(../img/Ellipse.svg);
+   background-repeat: no-repeat;
+   background-size: 230px;
+   background-position: bottom;
+   padding-bottom: 20px;
+   margin-bottom: 32px;
+   @media screen and (min-width: 768px){
+      background-image: url(../img/Ellipse.svg);
+      background-repeat: no-repeat;
+      background-size: 410px;
+      background-position: bottom;
+      padding-left: 65px;
+      padding-right: 65px;
+      padding-bottom: 65px;
+   }
+   @media screen and (min-width: 1200px){
+      background-image: url(../img/Ellipse.svg);
+      background-repeat: no-repeat;
+      background-size: 610px;
+      background-position: bottom;
+   }
+   
+}
+
+.about__img{
+   width: 188px;
+   height: 155px;
+   z-index: 1;
+   @media screen and (min-width: 768px){
+      margin: 0;
+      width: 300px;
+      height: 300px;
+   }
+   @media screen and (min-width: 1200px){
+      width: 480px;
+      height: 400px;
+   }
+}
+
+.icon-Ellipse{
+   position: absolute;
+   bottom: -15%;
+   left: 17%;
+   width: 241px;
+   height: 100px;
+   fill: #29AAE3;
+   opacity: 0.4;
+   transform: rotate(180deg);
+   @media screen and (min-width: 768px){
+      
+   }
+}
+.about__text{
+   color: #000000;
+   min-width: 333px;
+   margin-bottom: 20px;
+   @media screen and (min-width: 768px){
+      margin-bottom: 40px;
+      max-width: 475px;
+   }
+}
+.about__btn{
+   width: 100%;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 1.15;
+   background-color: #29AAE3;
+   &:hover{
+      background: var(--hover-blue-btn);
+   }
+   &:focus{
+      background: var(--purple)
+   }
+   @media screen and (min-width: 768px){
+      width: 305px;
+      padding: 12px 50px;
+   }
+}
+
+.about__button-wrap{
+   display: flex;
+   justify-content: center;
+
+   @media screen and (min-width: 768px){
+      justify-content: start;
+      
+   }
+}
+//-------purple----------//
+.about--purple{
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background: #fff;
+}
+.about__wrap--purple{
+   display: flex;
+   flex-direction: column;
+   @media screen and (min-width: 768px){
+      flex-direction: row;
+      justify-content: space-between;
+   }
+}
+.about__icon-wrap--purple{
+   background-image: url(../img/Ellipse-purple.svg);
+   background-repeat: no-repeat;
+   background-size: 260px;
+   background-position: bottom;
+   padding-bottom: 8px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 32px;
+   @media screen and (min-width: 768px){
+      padding: 10px;
+   }
+   @media screen and (min-width: 1200px){
+      background-size: 700px;
+      padding-bottom: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
+      
+   }
+}
+
+.about__img--laptop{
+   width: 242px;
+   height: 126px;
+   @media screen and (min-width: 1200px){
+      width: 600px;
+      height: 300px;
+   }
+}
+.about__text--purple{
+   max-width: 425px;
+}
+.about__btn--purple{
+   background-color: #9033F9;
+}
+//------------- pink ------------- //
+.about--pink{
+   padding-top: 70px;
+   padding-bottom: 60px;
+   background-image: url(../img/Ellipse-bottom.svg);
+   background-repeat: no-repeat;
+   background-size: 56px;
+   background-position: 85% 41%;
+   @media screen and (min-width: 768px){
+      background-size: 70px;
+      background-position: 95% 70%;
+   }
+   @media screen and (min-width: 1200px){
+      background-size: 92px;
+   }
+}
+.about__wrap--pink{
+   display: flex;
+   flex-direction: column;
+   @media screen and (min-width: 768px){
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+   }
+}
+.about__title--pink{
+   color: #FF5966;
+}
+.about__icon-wrap--pink{
+   background-image: url(../img/Ellipse-top.svg);
+   background-repeat: no-repeat;
+   background-size: 180px;
+   background-position: top;
+   padding-top: 20px;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 32px;
+   @media screen and (min-width: 768px){
+      padding: 20px;
+      background-size: 170px;
+   }
+   @media screen and (min-width: 1200px){
+      background-size: 300px;
+      margin-bottom: 0;
+      padding-top: 50px;
+      padding-left: 50px;
+      padding-right: 50px
+      
+   }
+}
+
+.about__img--iphone{
+   width: 140px;
+   height: 250px;
+   @media screen and (min-width: 1200px){
+      width: 233px;
+      height: 415px;
+   }
+}
+.about__text--pink{
+   max-width: 445px;
+}
+.about__btn--pink{
+   font-size: 19px;
+   background-color: #FF5966;
+   @media screen and (min-width: 1200px){
+      font-size: 17px;
+   }
+}

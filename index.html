@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Shifton</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+<body>
+   <header class="header">
+      <div class="conteiner">
+         <div class="header-wrap">
+            <a class="header__logo link" href="/">
+               <img src="./img/logo.jpg" alt="logo" width="276" height="73" class="logo">
+            </a>
+            <div class="right-head">
+               <nav>
+                  <ul class="header__list list">
+                     <li class="header__item"><a href="" class="header__link link">главная</a></li>
+                     <li class="header__item"><a href="" class="header__link link">тарифы</a></li>
+                     <li class="header__item"><a href="" class="header__link link">возможности </a></li>
+                     <li class="header__item"><a href="" class="header__link link">блог</a></li>
+                     <li class="header__item"><a href="" class="header__link link">чаво</a></li>
+                     <li class="header__item"><a href="" class="header__link link">вход</a></li>
+                     
+                     
+                  </ul>
+               </nav>
+               <div class="header__btn-lang-wrap">
+                  <button class="header__btn btn">Регистрация</button>   
+                  <div class="dropdown"> 
+                     <btn href="" onclick="myFunction()" class="header__link dropbtn link">рус
+                        <svg class="header__icon" width="9" height="9">
+                           <use href="./img/icons.svg#icon-polygon"></use>
+                        </svg>
+                     </btn> 
+                     <div id="myDropdown" class="dropdown-content">
+                       <a href="#" class="dropdown-link">Русский</a>
+                       <a href="./index-en.html" class="dropdown-link">English</a>
+                       <a href="./index-ukr.html" class="dropdown-link">Український</a>
+                       
+                     </div>
+                   </div>
+                  <button type="button" class="menu-open-btn" data-menu-open>
+                     <svg class="menu-open-btn__icon" width="40" height="40">
+                        <use href="./img/icons.svg#icon-menuburger"></use>
+                     </svg>
+                  </button>
+                  
+                  
+               </div>
+            </div>
+            
+            
+         </div>
+         
+      </div>
+      <div class="connect is-hidden" data-menu>         
+         <button type="button" class="menu-close-btn" data-menu-close>
+            <svg class="menu-open-btn__icon" width="40" height="40">
+               <use href="./img/icons.svg#icon-closex"></use>
+            </svg>
+         </button>
+         <div class="conteiner-menu">
+            <ul class="header-menu__list list">
+               <li class="header-menu__item"><a href="" class="header-menu__link link">главная</a></li>
+               <li class="header-menu__item"><a href="" class="header-menu__link link">тарифы</a></li>
+               <li class="header-menu__item"><a href="" class="header-menu__link link">возможности </a></li>
+               <li class="header-menu__item"><a href="" class="header-menu__link link">блог</a></li>
+               <li class="header-menu__item"><a href="" class="header-menu__link link">чаво</a></li>
+               <li class="header-menu__item"><a href="" class="header-menu__link link">вход</a></li>
+               <button class="header-menu__btn btn">Регистрация</button>            
+            </ul>
+         </div>
+   </header>
+   <main>
+      <section class="hero">
+         <div class="conteiner">
+            <div class="hero-wrap">
+               <h1 class="headline-1 hero__title">Автоматизированное составление <br> рабочих расписаний онлайн</h1>
+               <div class="hero__text-wrap">
+                  <p class="text-3 hero__after-title">Экономия времени и денег</p>
+                  <p class="text-3 hero__after-title">Грамотное распределение рабочей нагрузки
+                  </p>
+                  <p class="text-3 hero__after-title">Построение оптимального сменного рабочего  расписания для любого количества сотрудников</p>
+               </div>
+              
+               <button class="btn hero__btn">Попробовать бесплатно</button>
+            </div>           
+         </div>
+      </section>
+      <section class="possibility">
+         <div class="conteiner">
+            <h2 class="headline-2-mobile possibility__title">Возможности Shifton</h2>
+            <ul class="possibility__list">
+               <li class="possibility__item">
+                  <div class="possibility__wrap-title">
+                     <svg class="possibility__icon" width="80" height="80">
+                        <use href="./img/icons.svg#icon-time-management-1"></use>                 
+                     </svg>        
+                     <h3 class="headline-3 possibility__card-title">Распределяй <br> работу</h3>
+                     <h4 class="headline-4 possibility__card-title2">Планирование смен</h4>  
+                  </div>            
+                    
+                  <ul class="possibility__card-list">
+                     <li class="possibility__card-list__item"> <p class="text possibility__card-list__text">Настраиваемые шаблоны смен</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Обмен сменами между сотрудниками</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Праздничные и особые дни</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Свободные смены</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Соблюдение трудового законодательства</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Синхронизация с календарем</p></li>         
+                  </ul>
+                  <div class="possibility__btn-wrap">
+                     <button class="btn possibility__btn">Подробнее</button>
+                  </div>  
+               </li>
+
+
+               <li class="possibility__item">
+                  <div class="possibility__wrap-title">
+                     <svg class="possibility__icon possibility__icon--color-2" width="80" height="80">
+                        <use href="./img/icons.svg#icon-time-management2"></use>                 
+                     </svg>        
+                     <h3 class="headline-3 possibility__card-title">Управляй и <br> контролируй</h3>
+                     <h4 class="headline-4 possibility__card-title2">Контроль сотрудников</h4> 
+                  </div>            
+                    
+                  <ul class="possibility__card-list">
+                     <li class="possibility__card-list__item"> <p class="text possibility__card-list__text">Назначение задач</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Создание контрольных списков</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Отслеживание опозданий</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Сравнение запланированных и завершенных задач</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Отчеты об отработанных часах, зарплатах сотрудников и отпускным/больничным дням</p></li>    
+                  </ul>
+                  <div class="possibility__btn-wrap">
+                     <button class="btn possibility__btn">Подробнее</button>
+                  </div>  
+               </li>
+
+
+               <li class="possibility__item">
+                  <div class="possibility__wrap-title">
+                     <svg class="possibility__icon possibility__icon--color-3" width="80" height="80">
+                        <use href="./img/icons.svg#icon-time-management3"></use>                 
+                     </svg>        
+                     <h3 class="headline-3 possibility__card-title">Масштабируй</h3>
+                     
+                     <h4 class="headline-4 possibility__card-title2">Интеграции и <br> неограниченный доступ</h4> 
+                      
+                  </div>            
+                    
+                  <ul class="possibility__card-list">
+                     <li class="possibility__card-list__item"> <p class="text possibility__card-list__text">Возможность интеграции</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Доступ 24/7 с любого устройства с выходом в Интернет</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Система уведомлений
+                     </p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Универсальность</p></li>
+                     
+                  </ul>
+                  <div class="possibility__btn-wrap">
+                     <button class="btn possibility__btn">Подробнее</button>
+                  </div>  
+               </li>
+               <li class="possibility__item">
+                  <div class="possibility__wrap-title">
+                     <svg class="possibility__icon possibility__icon--color-4" width="80" height="80">
+                        <use href="./img/icons.svg#icon-time-management4"></use>                 
+                     </svg>        
+                     <h3 class="headline-3 possibility__card-title">Планируй и <br> составляй прогнозы</h3>
+                     <h4 class="headline-4 possibility__card-title2">Оценки и прогнозы
+                     </h4>  
+                  </div>            
+                    
+                  <ul class="possibility__card-list">
+                     <li class="possibility__card-list__item"> <p class="text possibility__card-list__text">Планирование перерывов</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Планирование отпусков</p></li>
+                     <li class="possibility__card-list__item"><p class="text possibility__card-list__text">Безопасное хранение документов</p></li>        
+                  </ul>
+                  <div class="possibility__btn-wrap">
+                     <button class="btn possibility__btn">Подробнее</button>
+                  </div>  
+               </li>
+            </ul>
+         </div>
+      </section>
+      <section class="about">
+         <div class="conteiner">
+            <h2 class="headline-2-mobile about__title">
+               Автоматизированное создание онлайн расписаний
+            </h2>
+            <div class="about__wrap">
+               <div class="about__icon-wrap">
+                  <img src="./img/ iMac.png" alt="" class="about__img">
+                  <!-- <svg class="icon icon-Ellipse" >
+                     <use href="./img/icons.svg#icon-Ellipse" width="241" height="100"></use>
+                  </svg> -->
+                  
+               </div>
+               <div class="about__text-btn-wrap">
+                  <p class="text-2 about__text">Онлайн-система Shifton разработана для оптимизации времени и ресурсов в создании рабочих расписаний сотрудников. Shifton - прекрасное решение для компаний любых сфер деятельности и размеров.</p>
+                  <div class="about__button-wrap">
+                     <button class="btn about__btn">Зарегистирироваться</button>
+                  </div>
+                  
+               </div>
+            </div>
+           
+            
+         </div>
+      </section>
+      <section class="about about--purple">
+         <div class="conteiner">
+            <h2 class="headline-2-mobile about__title about__title--purple">
+               Оптимизация командной работы
+            </h2>
+            <div class="about__wrap about__wrap--purple">
+               <div class="about__icon-wrap--purple">
+                  <img src="./img/laptop-tel.png" alt="" class="about__img--laptop">
+                  
+               </div>
+               <div class="about__text-btn-wrap">
+                  <p class="text-2 about__text about__text--purple">Shifton поможет компании сэкономить средства, минимизировав время простоев в работе. Система автоматически назначает смены сотрудникам, обеспечивая плавный и бесперебойный рабочий процесс на предприятии.</p>
+                  <div class="about__button-wrap">
+                     <button class="btn about__btn about__btn--purple">Начать работу</button>
+                  </div>
+                  
+               </div>
+            </div>
+           
+            
+         </div>
+      </section>
+      <section class="about about--pink">
+         <div class="conteiner">
+            <h2 class="headline-2-mobile about__title about__title--pink">
+               Управление перерывами и отдыхом
+
+            </h2>
+            <div class=" about__wrap--pink">
+               <div class="about__icon-wrap--pink">
+                  <img src="./img/ Iphone.png" alt="" class="about__img--iphone">
+                  
+               </div>
+               <div class="about__text-btn-wrap">
+                  <p class="text-2 about__text about__text--pink">Создавайте комфортные рабочие графики с учетом личных обстоятельств сотрудников.
+                     Работники оценят возможность обмениваться сменами или перерывами с коллегами, а в случае замены сотрудника Shifton мгновенно скорректирует любой график.</p>
+                  <div class="about__button-wrap">
+                     <button class="btn about__btn about__btn--pink">Попробовать бесплатно</button>
+                  </div>
+                  
+               </div>
+            </div> 
+         </div>
+      </section>
+      <section class="planning">
+         <div class="conteiner">
+            <h2 class="headline-2-mobile planning__title">Shifton - автоматизированный сервис планирования расписаний</h2>
+            <div class="planning__video-wrap">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/GjhKsd35JLg?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="planning__video"></iframe>
+            </div>
+            <div class="planning__text-wrap">
+            <div class="planning__text-flex">
+               <p class="headline-4 planning__text">Остались вопросы? 
+               <p class="headline-4 planning__text"> С радостью на них ответим! </p>
+            </div>
+            <div class="planning__text-flex">
+               <p class="headline-4 planning__text">Пишите в чат или на почту</p>    
+               <a href="mailto:support@shifton.com" class="planning__link headline-4">support@shifton.com</a> 
+            </div>
+            
+            </div>
+            <ul class="social-list list">
+               <li class="social-list__item">
+                 <a
+                   href="https://www.facebook.com/shifton.en/"
+                   class="social-list__link social-list__link--facebook"
+                   target="blank"
+                   rel="noreferrer noopener"
+                 >
+                   <svg class="social-list__icon" width="10" height="20">
+                     <use href="./img/icons.svg#icon-facebook"></use>
+                   </svg>
+                 </a>
+               </li>
+               <li class="social-list__item">
+                 <a
+                   href="https://twitter.com/shifton_com/"
+                   class="social-list__link social-list__link--twitter"
+                   target="blank"
+                   rel="noreferrer noopener"
+                 >
+                   <svg class="social-list__icon" width="20" height="20">
+                     <use href="./img/icons.svg#icon-twitter"></use>
+                   </svg>
+                 </a>
+               </li>
+               <li class="social-list__item">
+                 <a
+                   href="https://www.linkedin.com/company/shifton-scheduling-solution/"
+                   class="social-list__link social-list__link--linkedin"
+                   target="blank"
+                   rel="noreferrer noopener"
+                 >
+                   <svg class="social-list__icon" width="20" height="20">
+                     <use href="./img/icons.svg#icon-linkedin"></use>
+                   </svg>
+                 </a>
+               </li>
+               <li class="social-list__item">
+                 <a
+                   href="https://www.youtube.com/channel/UCzwHqjHVI-e9xLpWJRUmRHw"
+                   class="social-list__link social-list__link--youtube"
+                   target="blank"
+                   rel="noreferrer noopener"
+                   
+                 >
+                  <svg class="social-list__icon" width="20" height="20">
+                     <use href="./img/icons.svg#icon-youtube"></use>
+                   </svg>
+                 </a>
+               </li>
+             </ul>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="conteiner">
+         <ul class="footer__list">
+            <li class="footer__item"><a href="" class="link"><p class="footer__title headline-4">Возможности</p></a></li>
+            <li class="footer__item"><a href="" class="link"><p class="footer__title headline-4">Блог</p></a></li>
+            <li class="footer__item"><a href="" class="link"><p class="footer__title headline-4">ЧАВО</p></a></li>
+         </ul>
+         <div class="footer__icon-wrap">
+            <a href="https://play.google.com/store/apps/details?id=com.shifton.work" class="footer__link"
+            target="blank"
+            rel="noreferrer noopener">
+               <img src="./img/google-play.svg" alt="" class="footer__img">
+            </a>
+            <a href="https://apps.apple.com/app/shifton/id1510772762" class="footer__link"
+            target="blank"
+            rel="noreferrer noopener">
+               <img src="./img/app_store.svg" alt="" class="footer__img--app">
+            </a>
+            
+         </div>
+         <p class="footer__text">Copyright 2017-2021, Shifton. All rights reserved.</p>
+         <ul class="footer__list-text">
+            <li class="footer__item-text">
+               <p class=" footer__text-border">Privacy Policy</p>
+            </li>
+            <li class="footer__item-text">
+               <p class=" footer__text-border"> Terms of Use</p>
+            </li>
+            <li class="footer__item-text">
+               <p class=" footer__text-border">Сookies</p>            
+            </li>
+         </ul>
+      </div>
+   </footer>
+   <script src="./js/drop-down.js"></script>
+   <script src="./js/header-menu.js"></script>
+   <script src="./js/burger-btn.js"></script>
+</body>
+</html>

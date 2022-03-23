@@ -1,0 +1,37 @@
+.dropdown {
+   position: relative;
+   display: inline-block;
+}
+.dropdown-content {
+   display: none;
+   position: absolute;
+   right: -50%;
+   top: 200%;
+   background-color: black;
+   padding: 15px;
+   width: 90px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+}
+.dropdown-content a {
+   display: block;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.38;
+   color: #fff;
+   text-decoration: none;
+   &:not(:last-child){
+      margin-bottom: 10px;
+   }
+   &:first-child{
+       color: #29AAE3;
+   }
+}
+
+.dropdown-content a:hover {
+   background-color: #131e24;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+

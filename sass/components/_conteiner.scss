@@ -1,0 +1,25 @@
+.conteiner {
+  padding: 0 20px;
+
+  @include mobile {
+    width: 375px;
+    margin: 0 auto;
+  }
+
+  @include tablet {
+    width: 740px;
+  }
+
+  @include desktop {
+    width: 1200px;
+  }
+}
+
+
+
+.conteiner-menu{
+  display: flex;
+  flex-direction: column;
+  padding:30px;
+  justify-content: center;
+}
